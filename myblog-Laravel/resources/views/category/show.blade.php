@@ -1,5 +1,8 @@
-@extends('layouts.app')
+@extends('layout')
 
 @section('content')
-    <h1 class="text-2xl font-bold">Listado de categorías</h1>
-@endsection
+    <h1>{{ $post->title }}</h1>
+    <p><strong>Publicado por:</strong> {{ $post->poster }}</p>
+    <p>{{ $post->content }}</p>
+    <p><strong>Habilitado:</strong> {{ $post->habilitated ? 'Sí' : 'No' }}</p>
+@endsectio

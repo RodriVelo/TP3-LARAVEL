@@ -1,5 +1,7 @@
-@extends('layouts.app')
+@extends('layout')
 
 @section('content')
-    <h1 class="text-2xl font-bold">Listado de categorías</h1>
+    <h1>Editar Post</h1>
+    <p>Título: {{ $post->title }}</p>
+    <p>Contenido: {{ $post->content }}</p>
 @endsection
