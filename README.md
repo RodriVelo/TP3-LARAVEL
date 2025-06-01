@@ -21,7 +21,7 @@ Sigue estos pasos para instalar y configurar el proyecto correctamente:
 
     ```bash
     git clone https://github.com/RodriVelo/TP3-LARAVEL
-    cd TP3-LARAVEL/myblog-Laravel
+    cd TP3-LARAVEL
     ```
 
 2. **Configurar el entorno**
