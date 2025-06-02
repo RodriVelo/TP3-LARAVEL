@@ -10,7 +10,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="bg-green-100 font-sans">
+<body class="bg-green-100 font-sans flex flex-col min-h-screen">
 
     <header class="bg-green-800 text-white p-4">
         <nav class="container mx-auto flex items-center justify-between">
@@ -32,12 +32,12 @@
             </nav>
         </nav>
     </header>
-
-    <main class="container mx-auto p-6 min-h-[70vh]">
+        <a class href="/category">Volver</a>
+    <main class="container mx-auto p-6 flex-grow">
         @yield('content')
     </main>
 
-    <footer class="h-32 bg-green-800 text-white text-center p-4 w-full mt-auto">
+    <footer class="bg-green-800 text-white text-center p-4 w-full mt-auto">
         &copy; {{ date('Y') }} Fulbo 7. <a href="https://github.com/RodriVelo/TP3-LARAVEL" target="_blank"
             class="text-green-300 hover:text-green-200">GitHub</a>.
     </footer>
